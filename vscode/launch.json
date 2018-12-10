@@ -25,6 +25,7 @@
             "program": "${workspaceFolder}/node_modules/.bin/tap",
             "args": [
                 "--node-arg=--inspect-brk",
+                "--no-timeout",
                 "${file}"
             ],
             "console": "integratedTerminal",
