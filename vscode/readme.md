@@ -5,4 +5,4 @@ Launch file examples for debugging. Currently contains examples for launching si
 
 For more info on debugging via VS Code see: https://code.visualstudio.com/docs/editor/debugging
 
-For vs-code recipes through Microsoft, see: https://github.com/Microsoft/vscode-recipes
+For recipes through Microsoft, see: https://github.com/Microsoft/vscode-recipes
