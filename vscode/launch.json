@@ -31,6 +31,25 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "autoAttachChildProcesses": true
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "(ts-mocha) plugin-http: file",
+            "program": "${workspaceFolder}/packages/opentelemetry-plugin-http/node_modules/ts-mocha/bin/ts-mocha",
+            "args": [
+              "-p tsconfig.json",
+              "--timeout",
+              "999999",
+              "--colors",
+              "${file}"
+            ],
+            "cwd": "${workspaceFolder}/packages/opentelemetry-plugin-http",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "skipFiles": [
+                "<node_internals>/**/*.js"
+            ]
+          }
     ]
 }
