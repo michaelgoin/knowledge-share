@@ -58,3 +58,12 @@ select parts of diff to stage from file1.js and file2.js
 For example:
 
 `git fetch origin dev:dev`
+
+## Check out branch from another fork/repo
+
+(Stolen from GitHub manual merge of PR instructions)
+
+```
+git checkout -b <new branch name> main
+git pull git@github.com:<external repo>.git <existing branch>
+```
